@@ -1,8 +1,60 @@
 # Dev Util Info
 
-## VSCode Extensions
+* [Dev Util Info](#dev-util-info)
+  * [VSCode](#vscode)
+    * [Settings](#settings)
+      * [File Exclusion](#file-exclusion)
+      * [CodeLens](#codelens)
+    * [Extensions](#extensions)
+      * [Functional](#functional)
+      * [Cosmetic](#cosmetic)
+  * [NPM](#npm)
+    * [Global Packages](#global-packages)
+      * [http-server](#http-server)
+      * [@angular/cli](#angular-cli)
 
-### Functional
+## VSCode
+
+### Settings
+
+#### File Exclusion
+
+Hides files/folders from the file explorer pane
+
+```javascript
+// settings.json
+{
+    // ...
+    "files.exclude": {
+        "**/.vs": true,
+        "**/.vscode": true,
+        "**/bin": true,
+        "**/node_modules": true,
+        "**/obj": true
+    },
+    // ...
+}
+```
+
+#### CodeLens
+
+Enables references for `.js`/`.ts` files
+
+```javascript
+// settings.json
+{
+    // ...
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    // ...
+}
+
+```
+
+### Extensions
+
+#### Functional
 
 * [Angular 8 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
@@ -40,7 +92,7 @@
 
   * Visual Studio style solution navigation
 
-### Cosmetic
+#### Cosmetic
 
 * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
@@ -75,18 +127,24 @@
 
       ```
 
-## NPM (global packages)
+## NPM
 
-* [http-server](https://www.npmjs.com/package/http-server)
+### Global Packages
+
+To list all currently installed global packages
+
+`npm list -g --depth 0`
+
+#### [HTTP Server](https://www.npmjs.com/package/http-server)
 
   Let's you spool up a server from command line in any folder
 
-  * Install
-  
-    `npm install -g http-server`
+* Install
 
-* [@angular/cli](https://www.npmjs.com/package/@angular/cli)
+  `npm install -g http-server`
 
-  * Install
-  
-    `npm install -g @angular/cli`
+#### [Angular CLI](https://www.npmjs.com/package/@angular/cli)
+
+* Install
+
+  `npm install -g @angular/cli`
