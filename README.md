@@ -1,17 +1,16 @@
 # Dev Util Info
 
-* [Dev Util Info](#dev-util-info)
-  * [VSCode](#vscode)
-    * [Settings](#settings)
-      * [File Exclusion](#file-exclusion)
-      * [CodeLens](#codelens)
-    * [Extensions](#extensions)
-      * [Functional](#functional)
-      * [Cosmetic](#cosmetic)
-  * [NPM](#npm)
-    * [Global Packages](#global-packages)
-      * [http-server](#http-server)
-      * [@angular/cli](#angular-cli)
+* [VSCode](#vscode)
+  * [Settings](#settings)
+    * [File Exclusion](#file-exclusion)
+    * [CodeLens](#codelens)
+  * [Extensions](#extensions)
+    * [Functional](#functional)
+    * [Cosmetic](#cosmetic)
+* [NPM](#npm)
+  * [Global Packages](#global-packages)
+    * [http-server](#http-server)
+    * [@angular/cli](#angular-cli)
 
 ## VSCode
 
