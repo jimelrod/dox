@@ -1,5 +1,7 @@
 # Dev Util Info
 
+## Table of Contents
+
 * [VSCode](#vscode)
   * [Settings](#settings)
     * [File Exclusion](#file-exclusion)
@@ -9,8 +11,8 @@
     * [Cosmetic](#cosmetic)
 * [NPM](#npm)
   * [Global Packages](#global-packages)
-    * [http-server](#http-server)
-    * [@angular/cli](#angular-cli)
+    * [HTTP Server](#http-server)
+    * [Angular CLI](#angular-cli)
 
 ## VSCode
 
@@ -50,6 +52,8 @@ Enables references for `.js`/`.ts` files
 }
 
 ```
+
+[Back to Top](#dev-util-info)
 
 ### Extensions
 
@@ -125,6 +129,7 @@ Enables references for `.js`/`.ts` files
       }
 
       ```
+[Back to Top](#dev-util-info)
 
 ## NPM
 
@@ -147,3 +152,5 @@ To list all currently installed global packages
 * Install
 
   `npm install -g @angular/cli`
+
+[Back to Top](#dev-util-info)
