@@ -74,6 +74,8 @@ Enables references for `.js`/`.ts` files
 
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
+* [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+
 * [EditorConfig for VSCode](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
@@ -83,11 +85,17 @@ Enables references for `.js`/`.ts` files
 
 * [Intellisense for CSS](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
 
+* [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
 * [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
 
   * Automagically generate a class from a JSON object
 
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+* [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+
+  * Open folder in Windows Subsystem for Linux
 
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
@@ -97,9 +105,17 @@ Enables references for `.js`/`.ts` files
 
 #### Cosmetic
 
+* [Blueberry Banana](https://marketplace.visualstudio.com/items?itemName=pshershov.blueberry-banana)
+
+  * Nifty color theme
+
 * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
   * Gives nested curly braces/bracket pairs different colors
+
+* [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit)
+
+  * Adjust transparency of VSCode
 
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
@@ -129,6 +145,7 @@ Enables references for `.js`/`.ts` files
       }
 
       ```
+
 [Back to Top](#dev-util-info)
 
 ## NPM
